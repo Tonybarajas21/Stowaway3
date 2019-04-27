@@ -25,11 +25,11 @@ export default () => (
         <Router>
         <div>
             <Switch>
-        <Route exact path ="/Login" component={SignIn} />
+        <Route exact path ="/" component={SignIn} />
         
         <Route exact path="/Main" component={Main} />
         <Route exact path="/Checkout" component={Checkout} />
-        <Route exact path="/Login" component={Login} />
+        <Route exact path="/Login" component={SignIn} />
         <Route exact path="/Profile" component={Profile} /> 
         <Route exact path="/Upload" component={Upload} />    
         <Route exact path="/Register" component={Register} />

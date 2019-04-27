@@ -71,7 +71,7 @@ function SignIn(props) {
           />
           <br></br>
           <Button
-            type="submit"
+            href="main"
             fullWidth
             variant="contained"
             color="secondary"
@@ -81,7 +81,7 @@ function SignIn(props) {
           </Button>
 
           <Button
-            type="href=register"
+            href="register"
             fullWidth
             variant="contained"
             color="secondary"
